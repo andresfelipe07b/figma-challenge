@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+
+}
+main{
+    background: #e78036;
+    padding: 150px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    color:white
+}
+main h2{
+    margin-bottom: 100px;
+}
+main > div{
+    display: flex;
+    margin: 100px 0;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+main div p{
+    width: 25%;
+    text-align: center;
+}
+main div img{
+    width: 50%;
+}
