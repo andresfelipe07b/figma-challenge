@@ -61,3 +61,28 @@ nav{
      padding-top: 200px;
 
  }
+@media screen and (max-width: 820px) {
+   main{
+       background: white;
+   }
+    nav{
+        margin-top: 10%;
+        flex-direction: column;
+    }
+    nav .logo span{
+       font-size: 50px;
+    }
+    .logo p:last-child{
+        font-size: 16px;
+        font-family: 'Imprima', sans-serif;
+        text-align: center;
+    }
+    nav ul{
+        flex-direction: column;
+        margin-top: 20%;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+
+    }
+}

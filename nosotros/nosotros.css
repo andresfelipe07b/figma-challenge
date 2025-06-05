@@ -31,3 +31,21 @@ main div p{
 main div img{
     width: 50%;
 }
+@media screen and (max-width: 820px) {
+    main{
+        font-size: 20px;
+        padding: 40px;
+
+
+    }
+    main div{
+        flex-direction: column;
+        margin:50px 0
+    }
+    main div p{
+        width: 80%;
+    }
+    main h2{
+        margin-bottom: 50px;
+    }
+}
